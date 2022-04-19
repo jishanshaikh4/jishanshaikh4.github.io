@@ -8,7 +8,7 @@ webrick:
     Referrer-Policy: strict-origin
     Content-Security-Policy: frame-ancestors 'none'; default-src 'self'
     X-Frame-Options: SAMEORIGIN
-    Strict-Transport-Security: max-age=15768000;includeSubdomains 
+    Strict-Transport-Security: max-age=15768000;includeSubdomains
     X-Content-Type-Options: nosniff
 
 plugins:
@@ -19,8 +19,7 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -36,7 +35,7 @@ projects:
       - jishanshaikh4.github.io
       - is-cv
       - sas
-      
+
   # sort_by options:
   #   - pushed
   #   - stars
@@ -58,11 +57,11 @@ social_media:
   # mastodon: your_username
   # medium: jishanshaikh4
   stackoverflow: 8458465
-  #telegram: jishanshaikh4 
+  #telegram: jishanshaikh4
   # quora: jishan-shaikh-11
   # unsplash: your_username
   # vk: your_username
-  
+
   # website: http://jishanshaikh.myartsonline.com
   # website: http://jishanshaikh.atwebpages.com/
   # youtube: your_username
@@ -74,7 +73,7 @@ topics:
   - name: Machine Learning Papers 2021
     web_url: https://www.github.com/jishanshaikh4/ml-papers
     image_url: https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif
-    
+
   - name: Learning R for Data Science
     web_url: https://en.wikipedia.org/wiki/R
     image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Mandelbrot_Creation_Animation.gif/400px-Mandelbrot_Creation_Animation.gif
