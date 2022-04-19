@@ -1,5 +1,5 @@
 <html>
-  <!-- 
+  <!--
 
 # Get started building your personal website
 
@@ -31,18 +31,25 @@ Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be ins
 
 1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
+
 ```
 gem install jekyll bundler
 ```
+
 3. Change into your new directory
+
 ```
 cd personal-website
 ```
+
 4. Install missing gems
+
 ```
 bundle install
 ```
+
 5. Build the site and make it available on a local server
+
 ```
 bundle exec jekyll serve
 ```
@@ -85,7 +92,6 @@ Most customizations can be done in a matter of seconds, by revising your reposit
 1. Shut down your server by entering the keyboard command <kbd>CTRL</kbd>+<kbd>c</kbd>
 2. Restart your server: `bundle exec jekyll serve`
 
-
 #### Layout
 
 Your website will display in a two-column layout by default on larger-screen devices, with your photo, name, and basic information displayed in a left-aligned "sidebar." You can quickly switch to a "stacked" single-column layout by changing the line in your `_config.yml` file that reads `layout: sidebar` to `layout: stacked`.
@@ -103,8 +109,8 @@ Parameters include:
 - `sort_by`: The method by which repositories are sorted. Options include `pushed` and `stars`.
 - `limit`: The maximum number of repositories that will be displayed in the "My Projects" section of your website. Out of the box, this number is set to `9`.
 - `exclude`:
-   - `forks`: When `true`, repositories you've forked will be excluded from the listing.
-   - `projects`: A list the repository names you want to exclude from the listing.
+  - `forks`: When `true`, repositories you've forked will be excluded from the listing.
+  - `projects`: A list the repository names you want to exclude from the listing.
 
 #### Topics
 
@@ -123,7 +129,7 @@ Your website supports linking and sharing to social media services you're using,
 ```
 social_media:
   behance: your_username
-  dribbble: your_username  
+  dribbble: your_username
   facebook: your_username
   hackerrank: your_username
   instagram: your_username
@@ -223,11 +229,10 @@ You are, of course, welcome to remove it or replace it with another framework. J
 
 You also have the option to add on to and extend Primer's styles by adding custom CSS to your `/assets/styles.scss` Sass stylesheet. By editing this file, you can customize your website's color scheme, typography, and more.
 
-
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
+!>
 
-  !>
 </html>
