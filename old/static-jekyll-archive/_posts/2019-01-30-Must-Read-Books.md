@@ -2,6 +2,7 @@
 title: "Must Read Books for Programmers"
 published: false
 ---
+
 TAGS: #Top #Books #Readings #Must
 
 15 Minute Read.
@@ -27,4 +28,3 @@ This is my list of "must read" books for programmers or in general for developer
 - Software Engineering
 - User Interface and User Experience (UI & UX)
 - Soft Skills
-
